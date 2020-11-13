@@ -1,0 +1,20 @@
+PODS:
+  - iosMath (0.9.4)
+  - Sparkle (1.23.0)
+
+DEPENDENCIES:
+  - iosMath
+  - Sparkle
+
+SPEC REPOS:
+  trunk:
+    - iosMath
+    - Sparkle
+
+SPEC CHECKSUMS:
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+  Sparkle: 55b1a87ba69d56913375a281546b7c82dec95bb0
+
+PODFILE CHECKSUM: 3e11080e598164fb5ccbfe8f05312ceafdf3339c
+
+COCOAPODS: 1.9.3

@@ -3,17 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02875A6A4E1CA138F3E4818F /* Pods_Fragment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B55338F25FE95FDC007ECE /* Pods_Fragment.framework */; };
+		0F8A24E5CD369EFA4E385C0D /* Pods_FragmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1546F87C4E55A4ADE2350964 /* Pods_FragmentTests.framework */; };
+		4EEEF01029CD0C91BD861746 /* Pods_flibgen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6268BB6E25D36E0390046FEE /* Pods_flibgen.framework */; };
+		EE1C5FC124F17BDA00A6BA98 /* flib.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1C5FC024F17BDA00A6BA98 /* flib.png */; };
+		EE3FDE8024F18F550022E2DC /* UserDefault in Frameworks */ = {isa = PBXBuildFile; productRef = EE3FDE7F24F18F550022E2DC /* UserDefault */; };
+		EE3FDE8224F18F550022E2DC /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = EE3FDE8124F18F550022E2DC /* Inject */; };
+		EE3FDE8424F18F550022E2DC /* SecurePropertyStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EE3FDE8324F18F550022E2DC /* SecurePropertyStorage */; };
+		EE3FDE8624F18F550022E2DC /* Keychain in Frameworks */ = {isa = PBXBuildFile; productRef = EE3FDE8524F18F550022E2DC /* Keychain */; };
+		EE3FDE8824F18F550022E2DC /* Singleton in Frameworks */ = {isa = PBXBuildFile; productRef = EE3FDE8724F18F550022E2DC /* Singleton */; };
+		EE3FDE8A24F18F550022E2DC /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = EE3FDE8924F18F550022E2DC /* Storage */; };
+		EE3FDE9224F26BB50022E2DC /* LibraryManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3FDE9124F26BB50022E2DC /* LibraryManagerViewController.swift */; };
+		EE63066C24F297D6005DAA0D /* FragmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63066B24F297D6005DAA0D /* FragmentTests.swift */; };
+		EE63067C24F3A1B5005DAA0D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63067B24F3A1B5005DAA0D /* main.swift */; };
+		EE63068824F3BBFE005DAA0D /* Checksum in Frameworks */ = {isa = PBXBuildFile; productRef = EE63068724F3BBFE005DAA0D /* Checksum */; };
+		EE63068A24F3BEEC005DAA0D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63068924F3BEEC005DAA0D /* Common.swift */; };
+		EE63068D24F3C65C005DAA0D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63068924F3BEEC005DAA0D /* Common.swift */; };
+		EE63069324F4165E005DAA0D /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = EE63069224F4165E005DAA0D /* PythonKit */; };
 		EE86443524F13C7000914FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86443424F13C7000914FBF /* AppDelegate.swift */; };
 		EE86443724F13C7000914FBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86443624F13C7000914FBF /* ViewController.swift */; };
 		EE86443924F13C7300914FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE86443824F13C7300914FBF /* Assets.xcassets */; };
 		EE86443C24F13C7300914FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE86443A24F13C7300914FBF /* Main.storyboard */; };
+		EE86444524F147C600914FBF /* PythonTaskRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86444424F147C600914FBF /* PythonTaskRunner.swift */; };
+		EE86444724F1480100914FBF /* AutocompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86444624F1480100914FBF /* AutocompleteTextField.swift */; };
+		EE86444924F14D0300914FBF /* FragmentLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86444824F14D0300914FBF /* FragmentLibraryManager.swift */; };
+		EE993AEF24F54E9400F71434 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE993AEE24F54E9400F71434 /* HistoryViewController.swift */; };
+		EE993AF124F58C7700F71434 /* AppMover.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE993AF024F58C7700F71434 /* AppMover.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EE63066E24F297D6005DAA0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE86442924F13C7000914FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE86443024F13C7000914FBF;
+			remoteInfo = Fragment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE3FDE7D24F183380022E2DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE63067724F3A1B5005DAA0D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1546F87C4E55A4ADE2350964 /* Pods_FragmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FragmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		340415C272B58EB567FA2203 /* Pods-Fragment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fragment.debug.xcconfig"; path = "Target Support Files/Pods-Fragment/Pods-Fragment.debug.xcconfig"; sourceTree = "<group>"; };
+		606B0C8FF5DEB79FF86261F7 /* Pods-flibgen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flibgen.debug.xcconfig"; path = "Target Support Files/Pods-flibgen/Pods-flibgen.debug.xcconfig"; sourceTree = "<group>"; };
+		6268BB6E25D36E0390046FEE /* Pods_flibgen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flibgen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653E24E87FC6995B9314DCB6 /* Pods-flibgen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flibgen.release.xcconfig"; path = "Target Support Files/Pods-flibgen/Pods-flibgen.release.xcconfig"; sourceTree = "<group>"; };
+		72614D939C278438634FFBA7 /* Pods-FragmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FragmentTests.debug.xcconfig"; path = "Target Support Files/Pods-FragmentTests/Pods-FragmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74DB4F38FC474FD75AB05396 /* Pods-Fragment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fragment.release.xcconfig"; path = "Target Support Files/Pods-Fragment/Pods-Fragment.release.xcconfig"; sourceTree = "<group>"; };
+		ACEB5B02BDAA53C0C7B0C0E7 /* Pods-FragmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FragmentTests.release.xcconfig"; path = "Target Support Files/Pods-FragmentTests/Pods-FragmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3B55338F25FE95FDC007ECE /* Pods_Fragment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fragment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1C5FC024F17BDA00A6BA98 /* flib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flib.png; sourceTree = "<group>"; };
+		EE3FDE9124F26BB50022E2DC /* LibraryManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryManagerViewController.swift; sourceTree = "<group>"; };
+		EE63066924F297D6005DAA0D /* FragmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FragmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE63066B24F297D6005DAA0D /* FragmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentTests.swift; sourceTree = "<group>"; };
+		EE63066D24F297D6005DAA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE63067924F3A1B5005DAA0D /* flibgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = flibgen; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE63067B24F3A1B5005DAA0D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EE63068924F3BEEC005DAA0D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		EE63069124F41624005DAA0D /* PythonKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PythonKit; sourceTree = "<group>"; };
 		EE86443124F13C7000914FBF /* Fragment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fragment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE86443424F13C7000914FBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE86443624F13C7000914FBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,24 +93,98 @@
 		EE86443B24F13C7300914FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE86443D24F13C7300914FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE86443E24F13C7300914FBF /* Fragment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fragment.entitlements; sourceTree = "<group>"; };
+		EE86444424F147C600914FBF /* PythonTaskRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonTaskRunner.swift; sourceTree = "<group>"; };
+		EE86444624F1480100914FBF /* AutocompleteTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteTextField.swift; sourceTree = "<group>"; };
+		EE86444824F14D0300914FBF /* FragmentLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentLibraryManager.swift; sourceTree = "<group>"; };
+		EE993AEE24F54E9400F71434 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		EE993AF024F58C7700F71434 /* AppMover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EE63066624F297D6005DAA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8A24E5CD369EFA4E385C0D /* Pods_FragmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE63067624F3A1B5005DAA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEEF01029CD0C91BD861746 /* Pods_flibgen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE86442E24F13C7000914FBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3FDE8A24F18F550022E2DC /* Storage in Frameworks */,
+				EE3FDE8824F18F550022E2DC /* Singleton in Frameworks */,
+				EE3FDE8624F18F550022E2DC /* Keychain in Frameworks */,
+				EE63069324F4165E005DAA0D /* PythonKit in Frameworks */,
+				EE63068824F3BBFE005DAA0D /* Checksum in Frameworks */,
+				EE3FDE8424F18F550022E2DC /* SecurePropertyStorage in Frameworks */,
+				EE3FDE8024F18F550022E2DC /* UserDefault in Frameworks */,
+				EE3FDE8224F18F550022E2DC /* Inject in Frameworks */,
+				02875A6A4E1CA138F3E4818F /* Pods_Fragment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D6CAA481F7F126E0FEB9982 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				340415C272B58EB567FA2203 /* Pods-Fragment.debug.xcconfig */,
+				74DB4F38FC474FD75AB05396 /* Pods-Fragment.release.xcconfig */,
+				72614D939C278438634FFBA7 /* Pods-FragmentTests.debug.xcconfig */,
+				ACEB5B02BDAA53C0C7B0C0E7 /* Pods-FragmentTests.release.xcconfig */,
+				606B0C8FF5DEB79FF86261F7 /* Pods-flibgen.debug.xcconfig */,
+				653E24E87FC6995B9314DCB6 /* Pods-flibgen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE63066A24F297D6005DAA0D /* FragmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE63066B24F297D6005DAA0D /* FragmentTests.swift */,
+				EE63066D24F297D6005DAA0D /* Info.plist */,
+			);
+			path = FragmentTests;
+			sourceTree = "<group>";
+		};
+		EE63067A24F3A1B5005DAA0D /* flibgen */ = {
+			isa = PBXGroup;
+			children = (
+				EE63067B24F3A1B5005DAA0D /* main.swift */,
+			);
+			path = flibgen;
+			sourceTree = "<group>";
+		};
+		EE63068124F3A277005DAA0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B55338F25FE95FDC007ECE /* Pods_Fragment.framework */,
+				1546F87C4E55A4ADE2350964 /* Pods_FragmentTests.framework */,
+				6268BB6E25D36E0390046FEE /* Pods_flibgen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE86442824F13C7000914FBF = {
 			isa = PBXGroup;
 			children = (
 				EE86443324F13C7000914FBF /* Fragment */,
+				EE63066A24F297D6005DAA0D /* FragmentTests */,
+				EE63067A24F3A1B5005DAA0D /* flibgen */,
 				EE86443224F13C7000914FBF /* Products */,
+				EE63068124F3A277005DAA0D /* Frameworks */,
+				9D6CAA481F7F126E0FEB9982 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				EE86443124F13C7000914FBF /* Fragment.app */,
+				EE63066924F297D6005DAA0D /* FragmentTests.xctest */,
+				EE63067924F3A1B5005DAA0D /* flibgen */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,9 +201,18 @@
 		EE86443324F13C7000914FBF /* Fragment */ = {
 			isa = PBXGroup;
 			children = (
+				EE63068924F3BEEC005DAA0D /* Common.swift */,
+				EE993AF024F58C7700F71434 /* AppMover.swift */,
 				EE86443424F13C7000914FBF /* AppDelegate.swift */,
 				EE86443624F13C7000914FBF /* ViewController.swift */,
+				EE86444424F147C600914FBF /* PythonTaskRunner.swift */,
+				EE993AEE24F54E9400F71434 /* HistoryViewController.swift */,
+				EE86444624F1480100914FBF /* AutocompleteTextField.swift */,
+				EE86444824F14D0300914FBF /* FragmentLibraryManager.swift */,
+				EE3FDE9124F26BB50022E2DC /* LibraryManagerViewController.swift */,
+				EE63069124F41624005DAA0D /* PythonKit */,
 				EE86443824F13C7300914FBF /* Assets.xcassets */,
+				EE1C5FC024F17BDA00A6BA98 /* flib.png */,
 				EE86443A24F13C7300914FBF /* Main.storyboard */,
 				EE86443D24F13C7300914FBF /* Info.plist */,
 				EE86443E24F13C7300914FBF /* Fragment.entitlements */,
@@ -66,19 +223,69 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EE63066824F297D6005DAA0D /* FragmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE63067224F297D6005DAA0D /* Build configuration list for PBXNativeTarget "FragmentTests" */;
+			buildPhases = (
+				FEAB50B3CBB3C35994C0595F /* [CP] Check Pods Manifest.lock */,
+				EE63066524F297D6005DAA0D /* Sources */,
+				EE63066624F297D6005DAA0D /* Frameworks */,
+				EE63066724F297D6005DAA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE63066F24F297D6005DAA0D /* PBXTargetDependency */,
+			);
+			name = FragmentTests;
+			productName = FragmentTests;
+			productReference = EE63066924F297D6005DAA0D /* FragmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE63067824F3A1B5005DAA0D /* flibgen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE63067D24F3A1B5005DAA0D /* Build configuration list for PBXNativeTarget "flibgen" */;
+			buildPhases = (
+				9AF87FD269116200AD51F742 /* [CP] Check Pods Manifest.lock */,
+				EE63067524F3A1B5005DAA0D /* Sources */,
+				EE63067624F3A1B5005DAA0D /* Frameworks */,
+				EE63067724F3A1B5005DAA0D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flibgen;
+			productName = flibgen;
+			productReference = EE63067924F3A1B5005DAA0D /* flibgen */;
+			productType = "com.apple.product-type.tool";
+		};
 		EE86443024F13C7000914FBF /* Fragment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE86444124F13C7300914FBF /* Build configuration list for PBXNativeTarget "Fragment" */;
 			buildPhases = (
+				66B898868C566CC9FADB66AE /* [CP] Check Pods Manifest.lock */,
 				EE86442D24F13C7000914FBF /* Sources */,
 				EE86442E24F13C7000914FBF /* Frameworks */,
 				EE86442F24F13C7000914FBF /* Resources */,
+				EE3FDE7D24F183380022E2DC /* Embed Frameworks */,
+				7F2BD019E7872C61133EBD0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Fragment;
+			packageProductDependencies = (
+				EE3FDE7F24F18F550022E2DC /* UserDefault */,
+				EE3FDE8124F18F550022E2DC /* Inject */,
+				EE3FDE8324F18F550022E2DC /* SecurePropertyStorage */,
+				EE3FDE8524F18F550022E2DC /* Keychain */,
+				EE3FDE8724F18F550022E2DC /* Singleton */,
+				EE3FDE8924F18F550022E2DC /* Storage */,
+				EE63068724F3BBFE005DAA0D /* Checksum */,
+				EE63069224F4165E005DAA0D /* PythonKit */,
+			);
 			productName = Fragment;
 			productReference = EE86443124F13C7000914FBF /* Fragment.app */;
 			productType = "com.apple.product-type.application";
@@ -92,6 +299,13 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					EE63066824F297D6005DAA0D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = EE86443024F13C7000914FBF;
+					};
+					EE63067824F3A1B5005DAA0D = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					EE86443024F13C7000914FBF = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -106,38 +320,170 @@
 				Base,
 			);
 			mainGroup = EE86442824F13C7000914FBF;
+			packageReferences = (
+				EE3FDE7E24F18F550022E2DC /* XCRemoteSwiftPackageReference "SecurePropertyStorage" */,
+				EE63068624F3BBFE005DAA0D /* XCRemoteSwiftPackageReference "Checksum" */,
+			);
 			productRefGroup = EE86443224F13C7000914FBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EE86443024F13C7000914FBF /* Fragment */,
+				EE63066824F297D6005DAA0D /* FragmentTests */,
+				EE63067824F3A1B5005DAA0D /* flibgen */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EE63066724F297D6005DAA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE86442F24F13C7000914FBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE86443924F13C7300914FBF /* Assets.xcassets in Resources */,
 				EE86443C24F13C7300914FBF /* Main.storyboard in Resources */,
+				EE1C5FC124F17BDA00A6BA98 /* flib.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66B898868C566CC9FADB66AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fragment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2BD019E7872C61133EBD0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fragment/Pods-Fragment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fragment/Pods-Fragment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fragment/Pods-Fragment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF87FD269116200AD51F742 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flibgen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAB50B3CBB3C35994C0595F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FragmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		EE63066524F297D6005DAA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE63066C24F297D6005DAA0D /* FragmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE63067524F3A1B5005DAA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE63067C24F3A1B5005DAA0D /* main.swift in Sources */,
+				EE63068D24F3C65C005DAA0D /* Common.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE86442D24F13C7000914FBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE86443724F13C7000914FBF /* ViewController.swift in Sources */,
+				EE86444924F14D0300914FBF /* FragmentLibraryManager.swift in Sources */,
+				EE3FDE9224F26BB50022E2DC /* LibraryManagerViewController.swift in Sources */,
+				EE86444724F1480100914FBF /* AutocompleteTextField.swift in Sources */,
 				EE86443524F13C7000914FBF /* AppDelegate.swift in Sources */,
+				EE86444524F147C600914FBF /* PythonTaskRunner.swift in Sources */,
+				EE993AF124F58C7700F71434 /* AppMover.swift in Sources */,
+				EE63068A24F3BEEC005DAA0D /* Common.swift in Sources */,
+				EE993AEF24F54E9400F71434 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE63066F24F297D6005DAA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE86443024F13C7000914FBF /* Fragment */;
+			targetProxy = EE63066E24F297D6005DAA0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EE86443A24F13C7300914FBF /* Main.storyboard */ = {
@@ -151,6 +497,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EE63067024F297D6005DAA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72614D939C278438634FFBA7 /* Pods-FragmentTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R7R47P4Z7H;
+				INFOPLIST_FILE = FragmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.FragmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fragment.app/Contents/MacOS/Fragment";
+			};
+			name = Debug;
+		};
+		EE63067124F297D6005DAA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACEB5B02BDAA53C0C7B0C0E7 /* Pods-FragmentTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R7R47P4Z7H;
+				INFOPLIST_FILE = FragmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.FragmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fragment.app/Contents/MacOS/Fragment";
+			};
+			name = Release;
+		};
+		EE63067E24F3A1B5005DAA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606B0C8FF5DEB79FF86261F7 /* Pods-flibgen.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7R47P4Z7H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE63067F24F3A1B5005DAA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653E24E87FC6995B9314DCB6 /* Pods-flibgen.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7R47P4Z7H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		EE86443F24F13C7300914FBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -202,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +673,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -268,6 +684,7 @@
 		};
 		EE86444224F13C7300914FBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340415C272B58EB567FA2203 /* Pods-Fragment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -281,14 +698,18 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.Fragment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		EE86444324F13C7300914FBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DB4F38FC474FD75AB05396 /* Pods-Fragment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,8 +723,11 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud31.Fragment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -311,6 +735,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EE63067224F297D6005DAA0D /* Build configuration list for PBXNativeTarget "FragmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE63067024F297D6005DAA0D /* Debug */,
+				EE63067124F297D6005DAA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE63067D24F3A1B5005DAA0D /* Build configuration list for PBXNativeTarget "flibgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE63067E24F3A1B5005DAA0D /* Debug */,
+				EE63067F24F3A1B5005DAA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EE86442C24F13C7000914FBF /* Build configuration list for PBXProject "Fragment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -330,6 +772,67 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE3FDE7E24F18F550022E2DC /* XCRemoteSwiftPackageReference "SecurePropertyStorage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexruperez/SecurePropertyStorage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+		EE63068624F3BBFE005DAA0D /* XCRemoteSwiftPackageReference "Checksum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnine/Checksum.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE3FDE7F24F18F550022E2DC /* UserDefault */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE3FDE7E24F18F550022E2DC /* XCRemoteSwiftPackageReference "SecurePropertyStorage" */;
+			productName = UserDefault;
+		};
+		EE3FDE8124F18F550022E2DC /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE3FDE7E24F18F550022E2DC /* XCRemoteSwiftPackageReference "SecurePropertyStorage" */;
+			productName = Inject;
+		};
+		EE3FDE8324F18F550022E2DC /* SecurePropertyStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE3FDE7E24F18F550022E2DC /* XCRemoteSwiftPackageReference "SecurePropertyStorage" */;
+			productName = SecurePropertyStorage;
+		};
+		EE3FDE8524F18F550022E2DC /* Keychain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE3FDE7E24F18F550022E2DC /* XCRemoteSwiftPackageReference "SecurePropertyStorage" */;
+			productName = Keychain;
+		};
+		EE3FDE8724F18F550022E2DC /* Singleton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE3FDE7E24F18F550022E2DC /* XCRemoteSwiftPackageReference "SecurePropertyStorage" */;
+			productName = Singleton;
+		};
+		EE3FDE8924F18F550022E2DC /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE3FDE7E24F18F550022E2DC /* XCRemoteSwiftPackageReference "SecurePropertyStorage" */;
+			productName = Storage;
+		};
+		EE63068724F3BBFE005DAA0D /* Checksum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE63068624F3BBFE005DAA0D /* XCRemoteSwiftPackageReference "Checksum" */;
+			productName = Checksum;
+		};
+		EE63069224F4165E005DAA0D /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE86442924F13C7000914FBF /* Project object */;
 }
